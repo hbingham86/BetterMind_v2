@@ -1,0 +1,111 @@
+import { StyleSheet } from 'react-native';
+import { responsiveFontSize, responsiveHeight, responsiveWidth } from 'react-native-responsive-dimensions';
+
+const QuickAccessStyles = StyleSheet.create({
+    contTwo: {
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        gap: 2,
+        height: '40%',
+    },
+    btn: {
+        flex: 1,
+        marginBottom: responsiveHeight(1),
+        borderRadius: 12,
+        paddingVertical: responsiveHeight(2),
+        paddingHorizontal: responsiveWidth(2),
+    },
+    btn2: {
+        flex: 1,
+        height: '70%',
+        borderRadius: 12,
+        paddingVertical: responsiveHeight(2),
+        paddingHorizontal: responsiveWidth(2),
+    },
+    container: {
+        gap: 5,
+        flex: 1,
+    },
+    moodCard: {
+        paddingVertical: responsiveHeight(2),
+        paddingHorizontal: responsiveWidth(3),
+        borderRadius: 16,
+    },
+    moodTitle: {
+        fontSize: responsiveFontSize(1.8),
+        fontWeight: 'bold',
+        color: '#1E2C34',
+    },
+    moodDescription: {
+        fontSize: responsiveFontSize(1.4),
+        fontWeight: '500',
+        color: 'black',
+        marginTop: responsiveHeight(0.5),
+    },
+    bottomContainer: {
+        flexDirection: 'row',
+        gap: 5,
+        justifyContent: 'space-between',
+        marginBottom: responsiveHeight(2),
+        marginTop: responsiveHeight(4),
+    },
+    exerciseCard: {
+        flex: 1,
+        paddingVertical: responsiveHeight(2),
+        paddingHorizontal: responsiveWidth(3),
+        borderRadius: 16,
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    emergencyCard: {
+        flex: 0.5,
+        backgroundColor: '#00c6ff',
+        paddingVertical: responsiveHeight(2),
+        paddingHorizontal: responsiveWidth(3),
+        borderRadius: 16,
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    emergencyIconContainer: {
+        elevation: 4,
+        shadowColor: '#000000',
+        shadowOffset: { width: 0, height: 4 },
+        shadowOpacity: 0.25,
+        shadowRadius: 4,
+        padding: 10,
+        borderRadius: 50,
+        marginBottom: 5,
+    },
+    IconContainer: {
+        elevation: 4,
+        shadowColor: '#000000',
+        shadowOffset: { width: 0, height: 5 },
+        shadowOpacity: 0.25,
+        shadowRadius: 4,
+        padding: 10,
+        borderRadius: 50,
+        height: responsiveHeight(5),
+        width: responsiveWidth(10),
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    buttonText: {
+        fontSize: responsiveFontSize(1.8),
+        fontWeight: 'bold',
+        color: '#011F26',
+        textAlign: 'center',
+    },
+    icon: {
+        height: responsiveHeight(5),
+        width: responsiveWidth(5),
+    },
+    button: {
+        justifyContent: 'center',
+        alignContent: 'center',
+        alignItems: 'center',
+        flex: 1,
+    },
+});
+export default QuickAccessStyles;
