@@ -1,0 +1,39 @@
+{
+    "project_info": {
+        "project_number": "21006522142",
+        "project_id": "betteryou-9efd0",
+        "storage_bucket": "betteryou-9efd0.firebasestorage.app"
+    },
+    "client": [
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:21006522142:android:351acfd3cc136dafd45b0f",
+                "android_client_info": {
+                    "package_name": "com.developertyzend.projectx"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "21006522142-tr328u445lj5okqk6p1gsap4ejka1b95.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyBMahIequzsz8TSjOVMf3xjbUze3jWt424"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "21006522142-tr328u445lj5okqk6p1gsap4ejka1b95.apps.googleusercontent.com",
+                            "client_type": 3
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "configuration_version": "1"
+}
