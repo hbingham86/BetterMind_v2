@@ -1,0 +1,25 @@
+const routeName = {
+    MAINPAGE: '(mainpage)/index',
+    LOGIN: 'auth/login/index',
+    REGISTER: 'auth/register/index',
+    FORGOT_PASSWORD: 'auth/fogotPass/index',
+    RESET_PASSWORD: 'auth/resetPass/index',
+    HOME: 'home',
+    VERIFICATION: 'auth/verification/index',
+    ONBORDING: 'onboarding/index',
+    SUBSCRIPTION: 'subscription/index',
+    RESENDVERIFICATION: 'auth/resendVerification/index',
+    PROFILE_INFO: 'ProfileInfo/index',
+    ChangeAINAME: 'ProfileInfo/ChangeAI',
+    PRIVACYPOLICY: 'ProfileInfo/PrivacyPolicy',
+    JOURNALDETAILS: 'JournalDetails/index',
+    WRITEJOURNAL: 'JournalDetails/JornalWriting',
+    UPDATEJOURNAL: 'JournalDetails/JornalUpdate',
+    CHATHISTORY: 'ChatContent/index',
+    PAYMENTS: 'Payments/index',
+    NOTIFICATION: 'Notification/index',
+    GUIDEDEXERCISE: 'GuidedExercises/index',
+    ExerciseFullScreen: 'GuidedExercises/ExerciseFullScreen',
+};
+
+export default routeName;
